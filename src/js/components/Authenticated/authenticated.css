@@ -1,0 +1,21 @@
+.welcome-text-container {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.link-active {
+    text-decoration: underline;
+}
+
+.w3-row > a {
+    cursor: pointer !important;
+    padding: 2px;
+    color: #3294ea;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.link-wrapper {
+	display: flex;
+    justify-content: space-around;
+}

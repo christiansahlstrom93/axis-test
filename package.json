@@ -1,0 +1,31 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Your assignment is to implement a small single-page application (SPA), in JavaScript, which displays sites and their devices.",
+  "main": "index.js",
+  "scripts": {
+    "api": "json-server --watch db.json",
+    "start": "webpack | json-server --watch db.json | http-serve ./src -f /",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-plugin-transform-class-properties": "^6.3.13",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "http-serve": "1.0.1",
+    "json-server": "^0.12.0",
+    "react": "0.14.9",
+    "react-dom": "^0.14.6",
+    "webpack": "^1.12.9"
+  }
+}

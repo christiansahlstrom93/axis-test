@@ -1,0 +1,14 @@
+.header-container {
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    padding: 20px;
+    z-index: 9;
+    background-color: #fff;
+}
+
+.axis-icon {
+	width: 200px;
+    background-repeat: round;
+}
