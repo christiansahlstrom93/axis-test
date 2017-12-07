@@ -1,3 +1,7 @@
+# How to start the app
+	*Do a npm install
+	*Start the app by running: npm run start
+
 # Assignment
 
 Your assignment is to implement a small single-page application (SPA), in
