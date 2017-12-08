@@ -1,0 +1,9 @@
+.site-template-container {
+	display: flex;
+    flex-direction: column;
+}
+
+.save-site-button {
+	margin-top: 10px;
+    align-self: flex-end;
+}

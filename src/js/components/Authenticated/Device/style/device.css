@@ -1,0 +1,55 @@
+.device-container {
+	padding: 5px;
+	min-height: 500px;
+}
+
+.remove-button {
+	margin-right: 10px;
+}
+
+.enabled-text {
+	color: green;
+}
+
+.disabled-text {
+	color: red;
+}
+
+.template-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.template-container > input {
+	margin-top: 5px;
+}
+
+.close-link {
+	cursor: pointer !important;
+    padding-bottom: 10px;
+    color: #3294ea;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-storage-button {
+	margin-top: 10px;
+	width: 130px;
+}
+
+.save-device-button {
+	align-self: flex-end;
+}
+
+.list-container {
+	padding: 10px;
+}
+
+.add-device-button {
+	margin-bottom: 10px;
+    margin-top: 10px;
+}

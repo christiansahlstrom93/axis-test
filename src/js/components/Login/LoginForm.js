@@ -21,7 +21,7 @@ export default class LoginForm extends React.Component {
 	render() {
 		const loginFailed = this.props.loginFailed ? 
 			<div className="alert alert-danger">
-              Inloggning misslyckades, var god försök igen.
+              Login failed, please try again.
             </div>
             : '';
 

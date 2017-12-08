@@ -7,9 +7,55 @@ class AjaxHandler {
             data: extras,
             contentType:'application/json',
             success: function(response) {
-                callback(response);
+                if (callback) {
+                    callback(response);
+                }
             }
         });
+  }
+
+  post(url, data, callback) {
+    $.ajax({
+        url: url,
+        dataType: 'json',
+        type: 'POST',
+        data: JSON.stringify(data),
+        contentType:'application/json',
+        success: function(response) {
+            if (callback) {
+                callback(response);
+            }
+        }
+    });
+  }
+
+  put(url, data, callback) {
+    $.ajax({
+        url: url,
+        dataType: 'json',
+        type: 'PUT',
+        data: JSON.stringify(data),
+        contentType:'application/json',
+        success: function(response) {
+            if (callback) {
+                callback(response);
+            }
+        }
+    });
+  }
+
+  delete(url, callback) {
+     $.ajax({
+        url: url,
+        dataType: 'json',
+        type: 'DELETE',
+        contentType:'application/json',
+        success: function(response) {
+            if (callback) {
+                callback(response);
+            }
+        }
+    });
   }
 }
 

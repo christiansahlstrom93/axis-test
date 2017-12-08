@@ -6,13 +6,11 @@ export default class Header extends React.Component {
 		super(props);
 	}
 
-
 	render() {
 		return (
-				<div className="header-container">
-					<a href="/"><img className="axis-icon" src="/resources/icon.jpg" /></a>
-		      	</div>
-
+			<div className="header-container">
+				<a href="/"><img className="axis-icon" src="/resources/icon.png" /></a>
+	      	</div>
     	)
 	}
 }

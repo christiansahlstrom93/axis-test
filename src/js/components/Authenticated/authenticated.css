@@ -9,7 +9,6 @@
 
 .w3-row > a {
     cursor: pointer !important;
-    padding: 2px;
     color: #3294ea;
     padding: 10px;
     margin-left: 20px;
@@ -18,4 +17,20 @@
 .link-wrapper {
 	display: flex;
     justify-content: space-around;
+}
+
+.add-edit-link-container {
+    margin-top: 10px;
+}
+
+.add-site-link {
+    color: #00aa00 !important;
+}
+
+.edit-site-link {
+    color: grey !important;
+}
+
+.delete-site-link {
+    color: #aa0000 !important;
 }
